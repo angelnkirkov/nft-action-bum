@@ -14,7 +14,7 @@ export default function Trending(props) {
         <SectionHeading title="Trending"></SectionHeading>
         <Grid container spacing={2} style={{ paddingTop: "50px" }}>
           {cards.map((el, i) => (
-            <Grid item md={3} style={{ height: "62px" }} key={i}>
+            <Grid item md={3} key={i}>
               <Cards {...el} />
             </Grid>
           ))}
