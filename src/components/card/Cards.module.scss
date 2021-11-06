@@ -1,0 +1,87 @@
+@use "../../styles/colors";
+.card {
+  padding: 15px;
+  border-radius: 15px !important;
+}
+.background {
+  background-color: green !important;
+}
+.cardHeader {
+  padding: 0 !important;
+  padding-bottom: 15px !important;
+}
+.media {
+  border-radius: 15px;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.title {
+  font-weight: 900 !important;
+}
+.price {
+  font-weight: 900 !important;
+}
+.likeContainer {
+  background: rgba(36, 242, 94, 0.1);
+  display: flex;
+  align-items: center;
+
+  border: 2px solid colors.$secondary_main;
+  box-sizing: border-box;
+  border-radius: 17px;
+  padding: 0 10px;
+  height: 30px;
+}
+.likes {
+  padding: 0 4px;
+
+  border: 2px solid !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(36, 242, 94, 0.1) !important;
+  font-weight: 700 !important;
+}
+.img {
+  background: none !important;
+  width: 16px !important;
+  margin-left: 10px !important;
+}
+.liveContainer {
+  background: colors.$secondary_main;
+  border-radius: 7px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+}
+.live {
+  font-weight: 700 !important;
+
+  color: colors.$background_paper;
+  padding: 0 8px;
+}
+
+.timeContainer {
+  background: colors.$secondary_main;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 8px 0;
+}
+.time {
+  font-weight: 700 !important;
+  color: colors.$background_paper;
+}

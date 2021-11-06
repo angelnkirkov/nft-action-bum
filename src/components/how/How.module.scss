@@ -1,0 +1,17 @@
+@use "../../styles/colors";
+.wrapper {
+  height: 520px;
+  margin: 24px 0;
+  background-color: colors.$primary_main;
+  margin-top: 70px;
+}
+.stepContainer {
+  margin-top: -25px !important;
+}
+.howLeft {
+  width: 80%;
+}
+.worksText {
+  padding: 35px 0;
+  width: 80%;
+}

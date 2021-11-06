@@ -1,0 +1,11 @@
+@use "../../styles/colors";
+
+.wrapper {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.mySelect svg {
+  color: #fff !important;
+  margin-right: 5px;
+}
