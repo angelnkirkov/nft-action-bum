@@ -1,0 +1,12 @@
+@use "../../styles/colors";
+.wrapper {
+  background-color: colors.$background_paper;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: colors.$text_secondary;
+  }
+}

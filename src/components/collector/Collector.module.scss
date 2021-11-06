@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //   background-color: rgba(128, 116, 175, 0.1);
+  background-color: rgba(78, 36, 242, 0.1);
+
+  margin-top: 0 !important;
+}
+.topCollectorNumberContainer {
+  padding: 25px 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(78, 36, 242, 0.2);
+}
+.userContainer {
+  padding-top: 0 !important;
+}
+.bar {
+  background-color: green;
+}

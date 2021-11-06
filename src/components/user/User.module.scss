@@ -1,0 +1,18 @@
+@use "../../styles/colors";
+.user {
+  display: flex !important;
+  align-items: center;
+}
+.nameAndinfo {
+  padding-left: 0.95rem;
+}
+.name {
+  font-weight: 900 !important;
+
+  margin-bottom: 0.2rem;
+}
+.info {
+  font-weight: bold !important;
+
+  margin: 0;
+}

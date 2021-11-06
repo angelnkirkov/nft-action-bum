@@ -1,0 +1,17 @@
+.avatar {
+  width: 90px;
+  height: 90px;
+  position: relative;
+
+  .image {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .badge {
+    position: absolute;
+    right: -16px;
+    bottom: 3px;
+    width: 40px;
+  }
+}
