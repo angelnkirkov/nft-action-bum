@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
 
-export default function Logo(props) {
-  const { type } = props;
+export default function Logo({ type }) {
+  //const { type } = props;
   return (
     <>
       <img
